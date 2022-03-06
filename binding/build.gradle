@@ -4,7 +4,7 @@ plugins {
     id 'maven-publish'
 }
 group = 'com.gamerole'
-version = '1.0.0'
+version = '1.0.1'
 
 android {
     compileSdkVersion 30
@@ -34,7 +34,7 @@ android {
                     from components.release
                     groupId = 'com.gamerole'
                     artifactId = 'bind'
-                    version = '1.0.0'
+                    version = '1.0.1'
                 }
             }
         }

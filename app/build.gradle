@@ -48,7 +48,7 @@ dependencies {
     ext.appcompat = "1.2.0"
     ext.ktx = "1.3.2"
     ext.remote = true
-
+    implementation 'com.github.AnJoiner:FFmpegCommand:1.2.1-lite'
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     implementation "androidx.core:core-ktx:${ktx}"
     implementation "androidx.appcompat:appcompat:${appcompat}"
