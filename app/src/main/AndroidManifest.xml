@@ -21,21 +21,7 @@
             </intent-filter>
         </activity>
 
-        <activity
-            android:name=".databind.DatBindActivity"
-            android:screenOrientation="portrait" />
 
-        <activity
-            android:name=".viewbind.ViewBindActivity"
-            android:screenOrientation="portrait" />
-
-        <activity
-            android:name=".databind.list.DataBindRecycleActivity"
-            android:screenOrientation="portrait" />
-
-        <activity
-            android:name="com.hi.dhl.demo.binding.navigation.NavigationActivity"
-            android:screenOrientation="portrait" />
     </application>
 
 </manifest>

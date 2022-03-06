@@ -3,6 +3,7 @@ package com.hi.dhl.binding
 import android.app.Activity
 import android.app.Dialog
 import androidx.annotation.LayoutRes
+import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDialogFragment
 import androidx.databinding.ViewDataBinding
 import androidx.fragment.app.Fragment
@@ -80,7 +81,7 @@ inline fun <reified T : ViewBinding> Activity.viewbind() =
 
 //inline fun <reified T : ViewBinding> AppCompatActivity.viewbind() =
 //    ActivityViewBinding(T::class.java, this)
-//
+
 //inline fun <reified T : ViewBinding> FragmentActivity.viewbind() =
 //    ActivityViewBinding(T::class.java, this)
 
