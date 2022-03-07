@@ -81,13 +81,8 @@ class LifecycleFragment : Fragment {
         this.destroyed = destroyed
     }
 
-    //    override fun onDestroy() {
-//        super.onDestroy()
-//        destroyed()
-//    }
-    override fun onDestroyView() {
+    override fun onDestroy() {
+        super.onDestroy()
         destroyed()
-        super.onDestroyView()
-
     }
 }
