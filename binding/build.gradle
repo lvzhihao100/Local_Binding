@@ -4,15 +4,15 @@ plugins {
     id 'maven-publish'
 }
 group = 'com.gamerole'
-version = '1.0.2'
+version = '1.0.3'
 
 android {
     compileSdkVersion 31
     defaultConfig {
         minSdkVersion 14
         targetSdkVersion 31
-        versionCode 102
-        versionName "1.0.2"
+        versionCode 103
+        versionName "1.0.3"
         multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
@@ -32,7 +32,7 @@ android {
                     from components.release
                     groupId = 'com.gamerole'
                     artifactId = 'bind'
-                    version = '1.0.2'
+                    version = '1.0.3'
                 }
             }
         }
